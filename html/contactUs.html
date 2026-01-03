@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../styles/contactUs.css">
+</head>
+<body>
+    <div id="container">
+        <nav id="navbar">
+            <h2><a href="../index.html">Home</a></h2>
+            <h2><a href="">About Us</a></h2>
+            <h2><a href="./contactUs.html">Contact Us</a></h2>
+            <button type="button" id="signup-btn"><h3>Sign Up</h3></button>
+        </nav>
+    </div>
+    <div id="contact-form">
+        <form onsubmit="return false">
+            <h4 id="contact-us">Contact Us</h4>
+
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your Name">
+            <small class="error"></small>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <small class="error"></small>
+            
+            <label for="query">Message:</label>
+            <textarea name="query" id="query" placeholder="Enter your Message"></textarea>
+            <small class="error"></small>
+            
+            <button id="contact-btn" onclick="validForm()">Submit</button>
+        </form>
+    </div>
+
+    <div id="footer">
+        <footer>
+            <div id="footer-div">
+                <div id="footer-container">
+                    <p>Footer of the home page</p>
+                    <p>All right reserved @nikhil.co.in</p>
+                    <p>Email: company@company.in</p>
+                    <p>020-2342345</p>
+                </div>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="./contactUs.html">Contact Us</a></li>
+                    <li><a href="./signup.html">Sign Up</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <script src="../scripts/contactUs.js"></script>
+</body>
+</html>

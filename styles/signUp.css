@@ -1,0 +1,54 @@
+body {
+    /* background-image: url(../images/assassins_creed_mirage-wallpaper-1920x1200.jpg); */
+    background-color: #0F2854;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    margin: 75px 450px;
+    border: solid red;
+    border-radius: 20px;
+    background-color: #BDE8F5;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input {
+    display: block;
+    width: 250px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+input.error-border {
+    border: 2px solid red;
+}
+
+small {
+    color: red;
+    display: none;
+    margin-bottom: 10px;
+}
+
+button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+#submit-btn {
+    margin: 20px 80px;
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
